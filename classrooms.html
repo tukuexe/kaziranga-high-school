@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classrooms | School Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">School<span>Name</span></a>
+            <div class="navbar-links">
+                <a href="index.html">Home</a>
+                <a href="teachers.html">Our Teachers</a>
+                <a href="location.html">Location</a>
+                <a href="classrooms.html" class="active">Classrooms</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Classrooms Hero Section -->
+    <section class="page-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/classrooms-bg.jpg');">
+        <div class="container">
+            <h1 class="hero-title">Our Learning Spaces</h1>
+            <p class="hero-subtitle">Explore our well-equipped classrooms designed for effective learning</p>
+        </div>
+    </section>
+
+    <!-- Classrooms Gallery Section -->
+    <section class="classrooms-section">
+        <div class="container">
+            <h2 class="section-title">Classroom Facilities</h2>
+            <p class="section-description">Our classrooms are designed to create an optimal learning environment for students of all ages.</p>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Classrooms</button>
+                <button class="filter-btn" data-filter="primary">Primary</button>
+                <button class="filter-btn" data-filter="middle">Middle School</button>
+                <button class="filter-btn" data-filter="high">High School</button>
+                <button class="filter-btn" data-filter="special">Special Rooms</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Classroom 1 -->
+                <div class="gallery-item" data-category="primary">
+                    <img src="images/classrooms/primary-1.jpg" alt="Primary Classroom 1">
+                    <div class="gallery-caption">
+                        <h3>Primary Classroom A</h3>
+                        <p>Bright and colorful space for our youngest learners</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 2 -->
+                <div class="gallery-item" data-category="primary">
+                    <img src="images/classrooms/primary-2.jpg" alt="Primary Classroom 2">
+                    <div class="gallery-caption">
+                        <h3>Primary Classroom B</h3>
+                        <p>Activity-based learning area</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 3 -->
+                <div class="gallery-item" data-category="middle">
+                    <img src="images/classrooms/middle-1.jpg" alt="Middle School Classroom 1">
+                    <div class="gallery-caption">
+                        <h3>Middle School Room 101</h3>
+                        <p>General classroom for grades 6-8</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 4 -->
+                <div class="gallery-item" data-category="middle">
+                    <img src="images/classrooms/middle-2.jpg" alt="Middle School Classroom 2">
+                    <div class="gallery-caption">
+                        <h3>Middle School Room 102</h3>
+                        <p>Science demonstration area</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 5 -->
+                <div class="gallery-item" data-category="high">
+                    <img src="images/classrooms/high-1.jpg" alt="High School Classroom 1">
+                    <div class="gallery-caption">
+                        <h3>High School Room 201</h3>
+                        <p>Advanced science classroom</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 6 -->
+                <div class="gallery-item" data-category="high">
+                    <img src="images/classrooms/high-2.jpg" alt="High School Classroom 2">
+                    <div class="gallery-caption">
+                        <h3>High School Room 202</h3>
+                        <p>Mathematics and computer lab</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 7 -->
+                <div class="gallery-item" data-category="special">
+                    <img src="images/classrooms/science-lab.jpg" alt="Science Laboratory">
+                    <div class="gallery-caption">
+                        <h3>Science Laboratory</h3>
+                        <p>Fully equipped for physics, chemistry and biology</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 8 -->
+                <div class="gallery-item" data-category="special">
+                    <img src="images/classrooms/computer-lab.jpg" alt="Computer Laboratory">
+                    <div class="gallery-caption">
+                        <h3>Computer Laboratory</h3>
+                        <p>30 workstations with modern computers</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 9 -->
+                <div class="gallery-item" data-category="special">
+                    <img src="images/classrooms/library.jpg" alt="School Library">
+                    <div class="gallery-caption">
+                        <h3>School Library</h3>
+                        <p>Over 5,000 books and reading area</p>
+                    </div>
+                </div>
+                
+                <!-- Classroom 10 -->
+                <div class="gallery-item" data-category="special">
+                    <img src="images/classrooms/art-room.jpg" alt="Art Room">
+                    <div class="gallery-caption">
+                        <h3>Art Room</h3>
+                        <p>Creative space for painting and crafts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img">
+            <span class="close-lightbox">&times;</span>
+            <div class="lightbox-nav">
+                <button class="lightbox-btn lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="lightbox-btn lightbox-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>School Name</h3>
+                    <p>Providing quality education since 2003. Our mission is to nurture young minds and prepare them for the challenges of tomorrow.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="teachers.html">Our Teachers</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="classrooms.html">Classrooms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> School Address, City, State</p>
+                    <p><i class="fas fa-phone"></i> +91 1234567890</p>
+                    <p><i class="fas fa-envelope"></i> info@schoolname.edu</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 School Name. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

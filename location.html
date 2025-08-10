@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChepenaKubua | Kaziranga High School</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">School<span>Name</span></a>
+            <div class="navbar-links">
+                <a href="index.html">Home</a>
+                <a href="teachers.html">Our Teachers</a>
+                <a href="location.html" class="active">Location</a>
+                <a href="classrooms.html">Classrooms</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Location Hero Section -->
+    <section class="page-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/location-bg.jpg');">
+        <div class="container">
+            <h1 class="hero-title">Our Location</h1>
+            <p class="hero-subtitle">Find us easily with these directions and transportation options</p>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="location-section">
+        <div class="container">
+            <h2 class="section-title">School Map</h2>
+            <p class="section-description">Our school is conveniently located in the heart of the community.</p>
+            
+            <div id="map" class="map-container"></div>
+            
+            <div class="location-info">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>GMCK College Rd, Near GMCK<br>Diring, Assam - 785609</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <div class="info-content">
+                            <h4>School Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 3:00 PM<br>Saturday: 8:00 AM - 12:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-bus"></i>
+                        <div class="info-content">
+                            <h4>Transportation</h4>
+                            <p>Bus routes 37, 37, and 40 stop nearby<br>Cycle stands available at main gate</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="info-content">
+                            <h4>Contact</h4>
+                            <p>Office: +91 *****97762<br>Principal: +91 99563*****</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Directions Section -->
+    <section class="directions-section">
+        <div class="container">
+            <h2 class="section-title">How to Reach Us</h2>
+            <p class="section-description">Multiple transportation options are available to reach our school</p>
+            
+            <div class="directions-grid">
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>By Car</h3>
+                    <p>From Diring center, take Main Road towards West Area. Turn left at GMCK college. The school is 100m on the right.</p>
+                    <p><strong>Parking:</strong> Available for visitors in front of the school.</p>
+                </div>
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>By Bus</h3>
+                    <p>City buses 12, 15, and 22 stop at Community Hall, which is a 3-minute walk from the school.</p>
+                    <p><strong>Frequency:</strong> Every 15-20 minutes during school hours.</p>
+                </div>
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <h3>By Cycle</h3>
+                    <p>Cycle tracks are available on all major roads leading to the school. Secure cycle stands are provided.</p>
+                    <p><strong>Safety:</strong> Helmets are recommended for all students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>School Name</h3>
+                    <p>Providing quality education since 2003. Our mission is to nurture young minds and prepare them for the challenges of tomorrow.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="teachers.html">Our Teachers</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="classrooms.html">Classrooms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> School Address, City, State</p>
+                    <p><i class="fas fa-phone"></i> +91 1234567890</p>
+                    <p><i class="fas fa-envelope"></i> info@schoolname.edu</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 School Name. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
